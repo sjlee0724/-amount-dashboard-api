@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+        "sourceMap": true, /* 소스맵 '.map' 파일 생성 설정 */
+        "target": "es2017",
+        "outDir": "./dist", /* 출력될 디렉토리 설정 */
+        "baseUrl": "./src",
+        "alwaysStrict": true, /* 엄격모드에서 구문 분석 후, 각 소스 파일에 "use strict" 코드를 출력 */
+        /*"noImplicitAny": true, /* 명시적이지 않은 'any' 유형으로 표현식 및 선언 사용 시 오류 발생 */
+        "experimentalDecorators": true, /* ES7 데코레이터(decorators) 실험 기능 지원 설정 */
+        "emitDecoratorMetadata": true, /* 데코레이터를 위한 유형 메타데이터 방출 실험 기능 지원 설정 */
+        "esModuleInterop": true, /* 모든 가져오기에 대한 네임스페이스 객체 생성을 통해 CommonJS와 ES 모듈 간의 상호 운용성을 제공. 'allowSyntheticDefaultImports' 암시 */
+        "skipLibCheck": true, /* 선언 파일 유형 검사 스킵 */
+        "forceConsistentCasingInFileNames": true, /* 동일한 파일에 대한 일관되지 않은 케이스 참조를 허용하지 않음 */
+        "moduleResolution": "node", /* 모듈 분석 방법 설정: 'node' (Node.js) 또는 'classic' (TypeScript pre-1.6). */
+    },
+    // 컴파일 포함
+    "include": [
+        "./**/*.ts"
+    ],
+    // 컴파일 제외
+    "exclude": [
+        "node_modules"
+    ]
+}
